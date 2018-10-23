@@ -1,17 +1,18 @@
 # Node.js & MySQL
 
-This app is a storefront that allows the user to shop - similar to Amazon storefront.  Instead of shopping through a web broswer, the user uses the command-line on terminal to do their shopping. 
+This app is a storefront that allows the user to shop - similar to Amazon's storefront.  Instead of shopping through a web browser, the user uses the command-line on terminal to do their shopping. 
 
-First off, on terminal navigate to the correct folder where the file is stored in. 
+First off, on the terminal, navigate to the correct folder where the file is stored in. 
 Then enter this command on the command-line:
-`node bamazonCustomer.js`
+`node bamazonCustomer.js`<br><br>
 
-A list of the store products show up.  Here the user can view the products information such as product's id, product's name, product's price, and product's aviable quantity.
-![](images/initialAmount2.JPG)<br>
+A list of the store’s products will show up.  Here, the user can view the product information such as product id, product name, product price, and product available quantity.
+![](images/initialAmount2.JPG)<br><br>
 
-Then terminal will ask the user what product (by id) do they want and how many. The user can input the id and amount on the command-line.
+Then the terminal will ask the user what product they want by id and how many. The user can then input the id and quantity they want on the command-line.<br><br>
 
 ### Tools Used 
-The tools used in this application are node.js and mySQL.  Node.js is used to design the storefront user interface while mySQL is used as the database and stores information.  These tools are connected, once a user purchases something through the terminal, it will be update and show the remain quantity on mySQL (the database).<br>
-On the image below, the user purchase one item from product id #10.  The remaining quantity is 61.
+The tools in this application are node.js and mySQL.  Node.js was used to design the storefront user interface while mySQL was used as the database and to stored information.  When a user purchased something through the terminal, mySQL updated and showed the remaining quantity.<br><br>
+
+On the image below, product id #10 started off at quantity of 62.  The user purchased one item of this product and the remaining quantity updated to 61.
 ![](images/RemainingAmount.JPG)<br>
