@@ -14,4 +14,4 @@ Then terminal will ask the user what product (by id) do they want and how many. 
 ### Tools Used 
 The tools used in this application are node.js and mySQL.  Node.js is used to design the storefront user interface while mySQL is used as the database and stores information.  These tools are connected, once a user purchases something through the terminal, it will be update and show the remain quantity on mySQL (the database).<br>
 On the image below, the user purchase one item from product id #10.  The remaining quantity is 61.
-![](images/remainingAmount.JPG)<br>
+![](images/RemainingAmount.JPG)<br>
